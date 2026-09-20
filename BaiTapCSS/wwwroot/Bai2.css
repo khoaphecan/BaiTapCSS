@@ -1,0 +1,79 @@
+﻿table.forum-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+    table.forum-table th {
+        background-color: #ededed;
+        color: #000;
+        font-weight: bold;
+        padding: 8px 12px;
+        border-top: 1px solid #dcdcdc;
+        border-bottom: 1px solid #dcdcdc;
+    }
+
+        table.forum-table th.col-topic {
+            text-align: left;
+        }
+
+        table.forum-table th.col-stat,
+        table.forum-table th.col-lastpost {
+            text-align: center;
+            border-left: 1px solid #dcdcdc;
+        }
+
+    table.forum-table td {
+        padding: 10px 12px;
+        border-bottom: 1px solid #e5e5e5;
+        vertical-align: middle;
+    }
+
+        table.forum-table td.col-topic {
+            text-align: left;
+        }
+
+        table.forum-table td.col-posts,
+        table.forum-table td.col-views {
+            text-align: center;
+            font-weight: bold;
+            color: #000;
+            border-left: 1px solid #e5e5e5;
+        }
+
+        table.forum-table td.col-lastpost {
+            text-align: left;
+            border-left: 1px solid #e5e5e5;
+        }
+
+.topic-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #2c689c;
+    text-decoration: none;
+}
+
+.topic-meta {
+    font-size: 12px;
+    color: #444;
+    margin-top: 4px;
+}
+
+    .topic-meta a {
+        color: #2c689c;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+.lastpost-date {
+    color: #2c689c;
+    text-decoration: none;
+    display: block;
+}
+
+.lastpost-author {
+    color: #888;
+    font-size: 12px;
+    margin-top: 2px;
+}

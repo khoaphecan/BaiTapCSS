@@ -1,0 +1,29 @@
+﻿table.mytable {
+    border-collapse: collapse;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: white;
+}
+
+    table.mytable th,
+    table.mytable td {
+        padding: 6px 20px;
+        border-bottom: 1px solid #00ffff;
+    }
+
+th.mytable {
+    background-color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+td.mytable_col1 {
+    background-color: #000080;
+    font-weight: bold;
+    text-align: left;
+}
+
+td.mytable_col {
+    background-color: #008080;
+    text-align: center;
+}

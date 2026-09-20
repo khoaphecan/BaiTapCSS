@@ -1,0 +1,54 @@
+﻿.recipe-card {
+    width: 600px;
+    background-color: #b80000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+table.recipe-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    table.recipe-table th {
+        padding: 12px 14px;
+        text-align: left;
+        font-weight: bold;
+        border-bottom: 1px dotted #ffffff;
+    }
+
+        table.recipe-table th.th-ingredients {
+            font-size: 16px;
+            width: 46%;
+        }
+
+        table.recipe-table th.th-serves {
+            font-size: 15px;
+            width: 27%;
+        }
+
+    table.recipe-table td {
+        padding: 7px 14px;
+        text-align: left;
+    }
+
+/* Các hàng có nền sáng hơn xen kẽ */
+tr.row-highlight {
+    background-color: #d13030;
+}
+
+.instructions {
+    padding: 14px 18px 20px 18px;
+    line-height: 1.45;
+}
+
+    .instructions ol {
+        margin: 0;
+        padding-left: 18px;
+    }
+
+    .instructions li {
+        margin-bottom: 8px;
+    }
